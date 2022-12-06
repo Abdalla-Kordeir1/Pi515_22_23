@@ -2,8 +2,10 @@
 
 menu = {'Pizza', 'Hot Dog', 'PB&J', 'Salad', 'Water', 'Soda'}
 
-print('Order Available: ')
+print('Order available :',{'Pizza', 'Hot Dog', 'Salad'}.issubset(menu))
+
 
 # Make an order that isn't available
 
-print('Order not Available: ')
+print("Order unavailable  :",{'Pizza', 'Chocolate', 'Ramen'}.issubset(menu))
+

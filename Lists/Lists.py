@@ -18,6 +18,7 @@
 
 # L1 = ["October", 31, "Halloween", True]
 # print(L1)
+# print(len(L1))
 
 # # You can also use the constructor list() to make a list. (tuple)
 

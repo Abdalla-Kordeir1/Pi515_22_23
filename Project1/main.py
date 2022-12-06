@@ -1,5 +1,5 @@
 # Copyright 2022 PI515
-
+'''
 import random
 keepAsking = True
 while keepAsking:
@@ -30,4 +30,13 @@ while guess != secret:
             count += 1
         # what else?
 
+'''
 
+age = input("Whats your age")
+height = input("Whats your height")
+weight = input("Whats your weight")
+
+if height >= 60 and 300 < weight > 75 or age > 20:
+  print("You can ride")
+else:
+  print("You cant ride")
